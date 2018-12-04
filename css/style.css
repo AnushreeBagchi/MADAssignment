@@ -1,6 +1,6 @@
 body{
     height: 100%;
-
+    overflow: hidden;
 }
 
 html{
@@ -17,6 +17,7 @@ html{
     left: 0px;
     right: 0px;
     z-index: 1;
+    margin: 2.5em;
 }
 
 .logo-img{
@@ -24,11 +25,6 @@ html{
     padding: 1em;
     margin-right: 1em;
 }
-
-/* .logo{
-   
-
-} */
 
 .nav div, .early-access{
     color: white;
@@ -40,8 +36,9 @@ html{
 .early-access{
     border: 1px solid white;
     position: absolute;
-    right: 0;
+    right: 5em;
     padding: 0.5em;
+
 }
 
 .content-div{
@@ -104,6 +101,6 @@ aside{
     overflow: hidden;
 }
 
-.hide{
+.util-hidden{
     display: none;
 }
