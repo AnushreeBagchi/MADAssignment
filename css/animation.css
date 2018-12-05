@@ -18,7 +18,7 @@
 }
 .animation__block {
    
-    -webkit-animation: block-animation 3s ease-in;
+    -webkit-animation: block-animation 2s ease-in;
     -webkit-animation-fill-mode: forwards;
     
 }

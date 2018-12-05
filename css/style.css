@@ -45,18 +45,20 @@ html{
 
 .content-outer-div{
     position: relative;
-    top: 5em;
-    left: 5em;
+    top: 30%;
+    left: 15%;
     width: fit-content;
 }
 
 .content-border{
     border: 2px solid #7cb3ce;
-    width: 65em;
+    width: 55em;
     position: absolute;
-    height: 21em;
+    height: 25em;
     border-left: 0px;
     z-index: 1;
+    left: 4em;
+    
 
 }
 
@@ -73,7 +75,7 @@ html{
 }
 
 .inner-content-div{
-   
+    overflow: hidden;
     height: 60%
 }
 
@@ -96,6 +98,7 @@ aside{
 .line1{
     font-weight: bold;
     font-size: 1.5em;
+    margin: 2px;
 }
 
 .line2{
@@ -134,10 +137,12 @@ aside{
 
 .animation__block{
     margin-left:20px;
-   height: 60px;
-   width: 48%;
+   height: 56px;
+   width: 80%;
    background: #5C98AE;
 }
+
+
 
 .loader{
     text-align: center;
