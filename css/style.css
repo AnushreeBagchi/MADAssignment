@@ -108,7 +108,13 @@ aside{
 .line3{
     color: #cccccc;
     font-size: 15px;
-    margin-bottom: 7px;
+    height: 56px;
+    margin: 0.5em;
+}
+
+.line3 p{
+    margin: 7px;
+    margin-left: 0;
 }
 
 .email{

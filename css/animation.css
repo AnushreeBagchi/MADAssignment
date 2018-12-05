@@ -16,6 +16,10 @@
     opacity: 0;
     -webkit-animation-fill-mode: both;
 }
+
+.animation__text__initial{
+    
+}
 .animation__block {
    
     -webkit-animation: block-animation 2s ease-in;
