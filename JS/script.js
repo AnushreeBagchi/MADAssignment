@@ -41,7 +41,6 @@
         Utils.addClass(animationheader,"util-flex-container");
         Utils.removeClass(animationBlock0, "util-hidden");
         Utils.removeClass(animationBlock00, "util-hidden");
-        //debugger;
         setTimeout(()=>{
             animation00();
         },2000);
