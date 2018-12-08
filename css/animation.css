@@ -3,6 +3,12 @@
     50%, 100% {transform:translateX(150%); }
   }
 
+  @-webkit-keyframes block-video-animation {
+    0%, 50% {transform:translateX(150%);  }
+    50%, 100% {transform:translateX(0%); }
+  }
+
+
 @-webkit-keyframes change-text-animation {
     0%, 50% {transform:translateX(-5%);   opacity: 0;}
     50%, 100% {transform:translateX(0%); opacity: 1;}
@@ -17,12 +23,16 @@
     -webkit-animation-fill-mode: both;
 }
 
-.animation__text__initial{
-    
-}
 .animation__block {
    
     -webkit-animation: block-animation 2s ease-in;
     -webkit-animation-fill-mode: forwards;
     
+}
+
+.animation__video__block{
+
+    -webkit-animation: block-video-animation 2s ease-in;
+    -webkit-animation-fill-mode: backwards;
+
 }

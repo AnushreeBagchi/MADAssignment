@@ -6,7 +6,7 @@
     var animationBlock3 = document.getElementById("block3");
     var animationBlock4 = document.getElementById("block4");
     var animationBlock5 = document.getElementById("block5");
-    var animationBlock6 = document.getElementById("block6");
+    var animationVideoBlock=document.getElementById("video-block");
     var gifAnimation = document.getElementById("logoGif");
     var loaderBlock= document.getElementById("loaderBlock");
     var body = document.getElementById("body");
@@ -17,8 +17,13 @@
         setTimeout(() => {
             Utils.addClass(loaderBlock, "util-hidden");
             Utils.removeClass(body, "util-hidden");
-            animation0();
+            animationVideo();
         }, 2000);     
+    }
+
+    function animationVideo(){
+        Utils.removeClass(animationVideoBlock,"util-hidden");
+        animation0();
     }
 
     function startMainCointentAnimation() {
