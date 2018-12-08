@@ -43,10 +43,14 @@ html{
 
 }
 
+.main-block{
+    position: relative;
+    top:30%;
+    left: 15%;
+}
 .content-outer-div{
     position: relative;
-    top: 30%;
-    left: 15%;
+    
     width: fit-content;
 }
 
@@ -64,12 +68,12 @@ html{
 
 .content-border-left-top{
     border-left: 2px solid #7cb3ce;
-    height: 20%
+    height: 16%
 }
 
 .content-border-left-bottom{
     border-left: 2px solid #7cb3ce;
-    height: 20%;
+    height: 15%;
     position: absolute;
     bottom: 0;
 }
@@ -122,10 +126,16 @@ aside{
     border: none;
     border-bottom: 1px solid white;
     width: 90%;
-    color: white;
     margin: 1em;
     margin-left:0;
     opacity: 1;
+}
+
+.email::placeholder  {
+    color: #cccccc;
+    font-size: 15px;
+    
+
 }
 
 .video{
